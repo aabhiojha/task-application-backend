@@ -37,7 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'todo' # Sabka baap ek.
+    'todo', # Sabka baap ek.
+    'rest_framework'
     # ill be using one app to manage it
 ]
 

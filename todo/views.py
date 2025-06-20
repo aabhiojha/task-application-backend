@@ -19,6 +19,7 @@ def task_list_create(request):
             return Response(serializer.data)
         return Response(serializer._errors)
     
+    
 @api_view(["GET",'PUT','DELETE'])
 def task_detail(request, pk):
     try:
